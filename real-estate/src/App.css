@@ -1,0 +1,17 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+}
+.App>:nth-child(1){
+    background: black;
+    position: relative;
+}
+.white{
+    position:absolute;
+    width:20rem;
+    height:20rem;
+    background:aliceblue;
+    z-index:1;
+    filter:blur(100px);
+    border-radius: 100%;
+}
